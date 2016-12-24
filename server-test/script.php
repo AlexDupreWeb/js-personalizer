@@ -7,7 +7,7 @@ $picto_chevron_up_blanc = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAA
 $picto_chevron_up_noir = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAd0lEQVQ4jWNgGPbAA4rJAhUMDAzfGRgY/jMwMNRTohmGiTakAEnTaiiG8QtI1cwCxUQZguzs6QwMDBJIcqIMDAxT8HkHn2YYEGFgYJiMzZAMLM7GBdC9k8PAwMBwmUjN2Ax5zsDAwOAAdQUxmpENSWGgIJENIgAAdaMt+QPHEo4AAAAASUVORK5CYII=";
 
 /**
- * Protection des clés, on vérifie que les données du REQUEST sont bien celles programmées.
+ * Protection des clÃ©s, on vÃ©rifie que les donnÃ©es du REQUEST sont bien celles programmÃ©es.
  */
 $key_protection = array('apiKey','apiSecret','setCookie','val0','val1');
 $key_request = array_keys($_REQUEST);
@@ -19,7 +19,7 @@ foreach($key_request as $key){
 }
 
 /**
- * Affection du REQUEST à une variable.
+ * Affection du REQUEST Ã  une variable.
  */
 $params = isset($_REQUEST) && !empty($_REQUEST) ? $_REQUEST:null;
 // var_dump($params);
@@ -32,7 +32,7 @@ unset($key_request);
 unset($_REQUEST);
 
 /**
- * Contrôle de l'authentification
+ * Contrï¿½le de l'authentification
  */
 if($params["apiKey"] == "alex123456" && $params["apiSecret"] == "01abcde23fghij45klmno67pqrst89uvwyz"){
 	

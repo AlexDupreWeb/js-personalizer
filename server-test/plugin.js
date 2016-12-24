@@ -194,6 +194,6 @@ function closePopin(){
 
 
 // var sVar1 = encodeURIComponent("contenu avec des espaces");
-// var sVar2 = encodeURIComponent("je vois que vous êtes un bon élève... oopa !");
+// var sVar2 = encodeURIComponent("je vois que vous Ãªtes un bon Ã©lÃ¨ve... oopa !");
 // xhr.open("GET", "handlingData.php?variable1=" + sVar1 + "&variable2= " + sVar2, true);
 // xhr.send(null);
