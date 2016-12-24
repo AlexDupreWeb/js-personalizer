@@ -6,7 +6,7 @@
 }*/
 var script = document.createElement('script');
 script.type = 'text/javascript';
-script.src = 'http://dev.alexandre-dupre.fr/script/plugin.js';
+script.src = 'http://js.personalizer.server/plugin.js';
 document.getElementsByTagName('body')[0].appendChild(script);
 
 var div = document.createElement('div');

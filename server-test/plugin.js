@@ -124,7 +124,7 @@ function getBottomBar(config){
 	var bottomBarContent = document.createElement('img');
 	bottomBarContent.id = 'AdwBottomBarContent';
 	bottomBarContent.alt = "Une image pour tester";
-	bottomBarContent.src = "http://dev.alexandre-dupre.fr/script/1000x70_rose.jpg";
+	bottomBarContent.src = "http://js.personalizer.server/1000x70_rose.jpg";
 	
 	bottomBarContent.style.height = '70px';
 	bottomBarContent.style.width = '1000px';
@@ -145,10 +145,10 @@ function openBottomBar(){
 	div.style.display = "none";
 }
 
-// var retour = ajax("GET", "http://dev.alexandre-dupre.fr/script/script.php", AdwApiKey, AdwApiSecret, AdwSetCookie, true);
+// var retour = ajax("GET", "http://js.personalizer.server/script.php", AdwApiKey, AdwApiSecret, AdwSetCookie, true);
 // console.log(ajax);
 
-var retour = ajax("POST", "http://dev.alexandre-dupre.fr/script/script.php", AdwApiKey, AdwApiSecret, AdwSetCookie, true, {val0:"alex",val1:"andre"});
+var retour = ajax("POST", "http://js.personalizer.server/script.php", AdwApiKey, AdwApiSecret, AdwSetCookie, true, {val0:"alex",val1:"andre"});
 console.log(ajax);
 
 

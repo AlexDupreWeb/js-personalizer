@@ -1,5 +1,5 @@
 <?php
-header("Access-Control-Allow-Origin: http://graphisme.marche-prive.net");
+header("Access-Control-Allow-Origin: http://js.personalizer.clientd");
 
 $picto_close_blanc = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAh0lEQVQ4jY2TSQGAMAwEIwGJSEACDpCAlEpAQiUgYfhwlLZJN89mZ3obMAMnsJlYwHYziwGZr5IA70U+G7DyL1dSwbyr7jQaSSezA1MUSDIcSWQ4kOjwQKLBgWB4xcoWYolzYPVYX+LAk9NLMhxk0tOon3IDRxMZcCiwI8nG953XEVxI3u98AW2lJ/jqCuSNAAAAAElFTkSuQmCC";
 $picto_close_noir  = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAgklEQVQ4jZWTWw3AIAxFjwQkTsIk4AAJSEHCJCBhErafPQij3aUJP/SeQ0JTgAXYgYRe6WJWgAoc1ykCnJt8BYjNxZ8kd9lkNUaSPpOB4AXKDOxJZNiSTMGeRIYtgTJiE5Ylow9TRmzCweh9JMqoTEkUYO8hNhEeSSq86xwF+K5nnU8+ynOQKkzRcAAAAABJRU5ErkJggg==";
